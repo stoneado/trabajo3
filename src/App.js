@@ -11,9 +11,10 @@ function App() {
     <div className="App">
       <header>
    <NavBar />
+   
    </header>
    <main>
-    <h1>RACING STONES</h1>
+  
    </main>
     </div>
   );
