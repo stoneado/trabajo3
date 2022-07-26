@@ -1,6 +1,9 @@
+import React from 'react'
+import 'bootstrap-icons/font/bootstrap-icons.css'
+
 import './App.css';
 import NavBar from './components/navBar/NavBar';
-import itemProduct from './components/itemProduct/itemProduct';
+import ItemProduct from './components/itemProduct/itemProduct';
 
 
 function App() {
@@ -8,15 +11,10 @@ function App() {
     <div className="App">
       <header>
    <NavBar />
-   <itemProduct title="producto1" price="100000"  />
-        <itemProduct />
-        <itemProduct />
-        <itemProduct />
-        <itemProduct />
-        <itemProduct />
-
-
    </header>
+   <main>
+    <h1>RACING STONES</h1>
+   </main>
     </div>
   );
 }

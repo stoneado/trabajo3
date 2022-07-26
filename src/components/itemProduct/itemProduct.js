@@ -1,6 +1,6 @@
+import React from 'react'
 
-
-const itemProduct = (title,price) => {
+function ItemProduct(title, price) {
     return (
         <div className="item-product">
             <img></img>
@@ -14,4 +14,4 @@ const itemProduct = (title,price) => {
 }
 
 
-export default itemProduct
+export default ItemProduct
