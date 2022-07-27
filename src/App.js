@@ -3,7 +3,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import './App.css';
 import NavBar from './components/navBar/NavBar';
-import ItemCount from './components/ItemCount';
+
+import ItemListContainer from './components/itemListContainer/ItemListContainer';
 
 
 function App() {
@@ -14,7 +15,10 @@ function App() {
    
    </header>
    <main>
-  <ItemCount />
+<ItemListContainer />
+ 
+
+  
    </main>
     </div>
   );
