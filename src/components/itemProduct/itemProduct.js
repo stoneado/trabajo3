@@ -1,14 +1,8 @@
-import React from 'react'
-
-function ItemProduct(title, price) {
+import products from "../../utils/products.mocks"
+function ItemProduct() {
     return (
-        <div className="item-product">
-            <img></img>
-            <p>{title}</p>
-            <span>${price}</span>
-            <button>Comprar</button>
-        </div>
-
+        
+        <products />
 
     )
 }
