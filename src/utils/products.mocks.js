@@ -1,6 +1,6 @@
 import React from "react";
 
-const products = [
+const Products = [
     {
         id: 1,
         nombre: 'Collar Mariposa',
@@ -40,4 +40,4 @@ const products = [
 
 ];
 
-export default products
+export default Products

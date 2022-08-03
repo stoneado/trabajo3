@@ -14,12 +14,12 @@ function App() {
    <NavBar />
    
    </header>
-   <main>
+   <section className='main-container'>
 <ItemListContainer />
  
 
   
-   </main>
+   </section>
     </div>
   );
 }
